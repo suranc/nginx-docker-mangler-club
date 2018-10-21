@@ -2,7 +2,7 @@
 
 # Install nginx, copy conifg, and run
 sudo apt install nginx
-cp containers.conf /etc/nginx/conf.d/
+sudo cp containers.conf /etc/nginx/conf.d/
 sudo systemctl enable nginx
 sudo systemctl start nginx
 
